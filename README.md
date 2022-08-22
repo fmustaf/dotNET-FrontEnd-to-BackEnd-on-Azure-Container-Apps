@@ -128,4 +128,4 @@ Clicking that URL will open the app's frontend up in the browser.
 
 ![The product list, once the app is running.](docs/media/store-ui.png)
 
-You'll see that the first request will take slightly longer than subsequent requests. On the first request to the page, the APIs are called on the server side. The code uses `IMemoryCache` to store the results of the API calls in memory. So, subsequent calls will use the cached payload rather than make live requests each time. 
+You'll see that the first request will take slightly longer than subsequent requests. On the first request to the page, the APIs are called on the server side. The code uses `IMemoryCache` to store the results of the API calls in memory. So, subsequent calls will use the cached payload rather than make live requests each time
